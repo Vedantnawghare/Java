@@ -1,0 +1,17 @@
+public class Main {
+
+    public static void main(String[] args){
+
+    	String str = "HelloBro";
+
+        System.out.println("Length: " + str.length());  
+        System.out.println("Uppercase: " + str.toUpperCase());
+        System.out.println("Substring: " + str.substring(2, 6));
+        
+        String s = "Hello, World!";
+        System.out.println(s.length());
+        System.out.println(s.substring(7, 12));
+        System.out.println(s.concat("!!!"));
+        System.out.println(s.lastIndexOf("l"));
+        
+    }
